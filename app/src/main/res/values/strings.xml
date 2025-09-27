@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Practico3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_listar">Listar</string>
+    <string name="menu_cargar">Cargar</string>
+    <string name="menu_salir">Salir</string>
+    <string name="tv_codigo">Código</string>
+    <string name="tv_precio">Precio</string>
+    <string name="tv_descripcion">Descripción</string>
+    <string name="hint_et_codigo">El código del producto</string>
+    <string name="hint_et_descripcion">La descripción del producto</string>
+    <string name="hint_et_precio">El precio del producto</string>
+    <string name="txt_btn_cargar">Cargar</string>
+    <string name="tv_titulo_cargar">Cargar Nuevo Producto</string>
+    
+    <string name="producto_existente">El producto ya existe</string>
+    <string name="cargado_con_exito">Producto cargado con éxito</string>
+
+    <string name="pregunta_dialog_salir">¿Seguro que querés salir?</string>
+    <string name="titulo_dialog_salir">Salir</string>
+    <string name="dialog_si">Sí</string>
+    <string name="dialog_no">No</string>
+</resources>
