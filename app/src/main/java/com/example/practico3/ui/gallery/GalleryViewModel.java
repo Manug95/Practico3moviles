@@ -31,10 +31,10 @@ public class GalleryViewModel extends AndroidViewModel {
 
     public void cargarListaProductos() {
         if (listaProductos.isEmpty()) {
-            listaProductos.add(new Producto("C-2", 200.0, "BProducto 2"));
-            listaProductos.add(new Producto("C-1", 100.0, "AProducto 1"));
-            listaProductos.add(new Producto("C-4", 400.0, "DProducto 4"));
-            listaProductos.add(new Producto("C-3", 300.0, "CProducto 3"));
+            listaProductos.add(new Producto("2", 200.0, "Producto M"));
+            listaProductos.add(new Producto("1", 100.0, "Producto A"));
+            listaProductos.add(new Producto("4", 400.0, "Producto H"));
+            listaProductos.add(new Producto("3", 300.0, "Producto C"));
         }
 
         Collections.sort(listaProductos);
