@@ -13,6 +13,7 @@
     <string name="menu_listar">Listar</string>
     <string name="menu_cargar">Cargar</string>
     <string name="menu_salir">Salir</string>
+    <string name="menu_modificar">Modificar</string>
     <string name="tv_codigo">Código</string>
     <string name="tv_precio">Precio</string>
     <string name="tv_descripcion">Descripción</string>
@@ -21,6 +22,7 @@
     <string name="hint_et_precio">El precio del producto</string>
     <string name="txt_btn_cargar">Cargar</string>
     <string name="tv_titulo_cargar">Cargar Nuevo Producto</string>
+    <string name="tv_titulo_modificar">Modificar Producto</string>
     
     <string name="producto_existente">El producto ya existe</string>
     <string name="cargado_con_exito">Producto cargado con éxito</string>
@@ -29,4 +31,8 @@
     <string name="titulo_dialog_salir">Salir</string>
     <string name="dialog_si">Sí</string>
     <string name="dialog_no">No</string>
+    <string name="tv_codigo_modificar">Ingrese el código del producto a modificar</string>
+    <string name="buscar_el_producto">Buscar el Producto</string>
+    <string name="txt_btn_modificar">Modificar</string>
+    <string name="txt_btn_buscar">Buscar</string>
 </resources>

@@ -13,6 +13,10 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_cargar" />
         <item
+            android:id="@+id/nav_modificar"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_modificar" />
+        <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_salir" />

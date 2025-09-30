@@ -22,4 +22,23 @@
         android:name="com.example.practico3.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_salir"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_modificar"
+        android:name="com.example.practico3.ui.modificar.ModificarFragment"
+        android:label="@string/menu_modificar"
+        tools:layout="@layout/fragment_modificar" >
+        <action
+            android:id="@+id/action_nav_modificar_to_detalleProductoFragment"
+            app:destination="@id/detalleProductoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleProductoFragment"
+        android:name="com.example.practico3.ui.modificar.DetalleProductoFragment"
+        android:label="Modificar Producto"
+        tools:layout="@layout/fragment_detalle_producto" >
+        <action
+            android:id="@+id/action_detalleProductoFragment_to_nav_modificar"
+            app:destination="@id/nav_modificar" />
+    </fragment>
 </navigation>
